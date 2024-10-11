@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="long.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>test Сайт</title>
+</head>
+<body>
+    <div class="contentTopFon">
+        <div class="contentTop" id="contentTop">
+            <img class="img1" src="test1.png" alt="МЫ" title="Типо мы">
+            <img class="img2" src="test2.png" alt="Еще мы" title="Мы в тексте">
+        </div>
+    </div>
+    <div class="contentButt" id="contentButt">
+            <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Главное</button>
+            <button class="tablink" onclick="openPage('News', this, 'green')">Новости</button>
+            <button class="tablink" onclick="openPage('Contact', this, 'blue')">Соц.сети</button>
+            <button class="tablink" onclick="openPage('About', this, 'orange')">Биография</button>
+
+            <div id="Home" class="tabcontent">
+                <h3>Главное</h3>
+                <p>Не смотря на все обиды мы остаемся в теплых отшениях</p>
+                <br><p>(p.s) надо дополнить (плохо пишу)</p>
+            </div>
+            
+            <div id="News" class="tabcontent">
+                <h3>Новости</h3>
+                <p>За все время будет куча</p>
+            </div>
+            
+            <div id="Contact" class="tabcontent">
+                <h3>Соц.сети</h3>
+                <p>Пока еще не дошли руки до сюда</p>
+            </div>
+            
+            <div id="About" class="tabcontent">
+                <div class="AboutAnim">
+                    <div class="userArt">
+                        <img class="artImg" src="Art.png" alt="Артем" title="Артем">
+                            <h4 class="art">Артем</h4>
+                            <h6>Или просто бобр</h6> 
+                            <p>Об o мне можно рассказывать долго так что не будем на мне останавливатся.</p>       
+                    </div>
+
+                    <div class="userAns">
+                        <img src="Ans.jpg" alt="Анастасия" title="Анастасия">
+                        <h4>Анастасия</h4>
+                        <h6>Или просто ЧувахПух</h6>
+                        <p>О, это наше ключевое и прекрасное звено в нашей троици/nКабзда если выйграешь её.</p>
+                    </div>
+
+                    <div class="userNuna">
+                        <img src="Nuna.jpg" alt="Юля" title="Юля">
+                        <h4>Юля</h4>
+                        <h6>Или просто Водакака</h6>
+                        <p>Строгая учительница только попробуй ее задеть, разнесет в щепки.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="contentNew" id="contentNew">
+        <h1 style="border-radius: 5px; padding-left: 25px; margin: auto; width: 450px; background-color: rgba(0, 0, 0, 0.5); color: aliceblue;">Что то интересное должно быть тут</h1>
+            <div class="contentNew1">  
+                  
+                    <img style="border-radius: 10px; margin-left: 50px; height: 300px; width: auto;" src="https://i.pinimg.com/enabled_hi/564x/ff/59/4c/ff594c2cea0c18cc010437ebaef45d70.jpg" alt="art 1">
+                    <img style="border-radius: 10px; margin-left: 50px; height: 300px; width: auto;" src="https://i.pinimg.com/564x/e5/16/96/e51696338cfa683c612aa4aaf9217426.jpg" alt="">
+                    <img style="border-radius: 10px; margin-left: 50px; height: 300px; width: auto;" src="https://i.pinimg.com/564x/87/8b/8b/878b8b0d26df2469ad48e4323d64a2a5.jpg" alt="">
+                    <img style="border-radius: 10px; margin-left: 50px; height: 300px; width: auto;" src="https://i.pinimg.com/564x/61/6a/bb/616abb49b32bdf386f5a16bf83a60382.jpg" alt="">
+                    <img style="border-radius: 10px; margin-left: 50px; height: 300px; width: auto;" src="https://i.pinimg.com/enabled_hi/564x/32/80/81/3280818afcb8956417c1b6d0f8bf01ad.jpg" alt="">
+                    <img style="border-radius: 10px; margin-left: 50px; height: 300px; width: auto;" src="https://i.pinimg.com/564x/0d/4e/7d/0d4e7d13d931066d32817b33bf2652ef.jpg" alt="">
+            </div>   
+            <br>
+            <div class="contentNew1">
+                    <img style="border-radius: 10px; margin-left: 50px; height: 300px; width: auto;" src="https://i.pinimg.com/enabled_hi/564x/53/19/49/5319491db8d75f29f4ad83d70cb36a46.jpg" alt="">
+                    <img style="border-radius: 10px; margin-left: 50px; height: 300px; width: auto;" src="https://i.pinimg.com/564x/31/6a/ba/316aba6a4da21495ab2a3b8aef27a6e2.jpg" alt="">
+                    <img style="border-radius: 10px; margin-left: 50px; height: 300px; width: auto;" src="https://i.pinimg.com/736x/61/2f/c2/612fc21ec532993774793e6a68a5164f.jpg" alt="">
+                    <img style="border-radius: 10px; margin-left: 50px; height: 300px; width: auto;" src="https://i.pinimg.com/enabled_hi/564x/29/21/f2/2921f24bb739871675c0c2be3f374fdb.jpg" alt="">
+                    <img style="border-radius: 10px; margin-left: 50px; height: 300px; width: auto;" src="https://i.pinimg.com/736x/4b/9b/2b/4b9b2b912e18827418fe5a61c863782d.jpg" alt="">
+            </div>
+            <br>
+    </div>
+    <script>
+        $(document).ready(function() {
+          $('.contentNew1 img').click(function() {
+            $(this).toggleClass('img-fixed');
+          });
+        });
+        $(document).ready(function() {
+          $('.AboutAnim div').click(function() {
+            $(this).toggleClass('div-fixed');
+          });
+        });
+    </script>
+    <script src="long.js"></script>
+</body>
+</html>
