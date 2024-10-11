@@ -1,0 +1,225 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: monospace;
+    
+  }
+.art {
+    background-color: #ecff1e;
+    width: 50px;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.userArt h6 {
+    background-color: #ecff1e;
+    width: 100px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.userArt p {
+    background-color: #ecff1e;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.userAns h4 {
+    background-color: #009986;
+    width: 100px;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.userAns h6 {
+    background-color: #009986;
+    width: 150px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.userAns p {
+    background-color: #009986;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.userNuna h4 {
+    background-color: #c89ceb;
+    width: 50px;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.userNuna h6 {
+    background-color: #c89ceb;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.userNuna p {
+    background-color: #c89ceb;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.contentButt {
+    background: url('https://images.wallpaperscraft.ru/image/single/devushka_siluet_planeta_1067694_3840x2400.jpg') no-repeat center center fixed;
+    background-size: cover ;
+}
+
+.contentTopFon{
+
+    background: url('https://i.pinimg.com/736x/57/1f/b0/571fb0ccd4cae8b3d969f40a7812bdd1.jpg') no-repeat center center fixed;
+    background-size: cover ;
+
+}
+
+.contentNew {
+    background: url('https://images.wallpaperscraft.ru/image/single/devushka_ulybka_ryby_1005833_3840x2400.jpg') no-repeat center center fixed;
+    background-size: cover ;
+}
+
+  .contentTop {
+    background-color: #946229ad;
+    height: 75px;
+  }
+
+  .img1 {
+    width: 75px;
+    height: auto;
+    position: absolute;
+    margin-right: auto;
+    margin-top: 1px;
+  }
+  
+  .img2 {
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    margin-top: auto;
+    position: relative;
+    display: block;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #5555556b;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color: rgba(255, 0, 0, 0.5);}
+  #News {background-color: rgba(0, 128, 0, 0.5);}
+  #Contact {background-color: rgba(0, 0, 255, 0.5);}
+  #About {background-color: rgba(255, 166, 0, 0.5);}
+
+  #About .userArt,
+#About .userAns,
+#About .userNuna {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#About .userArt:last-child,
+#About .userAns:last-child,
+#About .userNuna:last-child {
+  margin-right: 0; /* убираем последний отступ справа */
+}
+
+.userArt {
+    background-color: #ecff1eee;
+    width: 350px;
+    color: #e5897b;
+    font-weight: 900;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.userAns {
+    background-color: #009986ee;
+    width: 350px;
+    color: #ecd569;
+    font-weight: 900;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.userNuna {
+    background-color: #c89cebee;
+    width: 350px;
+    color: #f1d79e;
+    font-weight: 900;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.userArt img,
+.userAns img,
+.userNuna img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px; /* отступ от верха */
+  border-radius: 50%; /* делаем изображение круглым */
+  width: 200px;
+}
+
+#About {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*-------------------------*/
+.contentNew1 img {
+    transition: transform 0.3s ease;
+  }
+  
+  .contentNew1 img:hover {
+    transform: scale(1.1);
+  }
+  .AboutAnim div {
+    transition: transform 0.7s ease;
+  }
+
+  .AboutAnim div:hover {
+    transform: scale(1.2);
+  }
+
+  .img-fixed {
+    transform: scale(1.1);
+    z-index: 1; /* Убедитесь, что фиксированная картинка находится над другими элементами */
+  }
+  .div-fixed {
+    transform: scale(1.2);
+    z-index: 1; /* Убедитесь, что фиксированная картинка находится над другими элементами */
+  }
